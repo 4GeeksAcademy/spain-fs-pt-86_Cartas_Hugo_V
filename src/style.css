@@ -1,1 +1,31 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  width: 150px;
+  height: 200px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+}
+
+.top-left,
+.bottom-right {
+  font-size: 20px;
+}
+
+.center {
+  font-size: 50px;
+  text-align: center;
+}
